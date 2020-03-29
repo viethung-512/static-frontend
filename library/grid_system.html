@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- my library -->
+    <link rel="stylesheet" href="./grid.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .container {
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .my-column {
+        background-color: orange;
+        height: 260px;
+      }
+
+      h1 {
+        color: white;
+        line-height: 260px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid wide container">
+      <div class="row">
+        <div class="col l-6 l-o-3 m-8 m-o-2">
+          <div class="my-column">
+            <h1>Column</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
