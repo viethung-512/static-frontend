@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap&subset=vietnamese"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <title>AVE</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="header__topbar">
+          <span class="header__topbar-currency">
+            Currency : GBP
+            <i class="header__topbar-down-icon fas fa-chevron-down"></i>
+          </span>
+          <div class="header__topbar-auth">
+            <a href="#" class="header__topbar-item">Register</a>
+            <a href="#" class="header__topbar-item">Sign In</a>
+          </div>
+          <div class="header__topbar-cart">
+            <i class="header__topbar-cart-icon fas fa-shopping-cart"></i>
+            <span class="header__topbar-cart-label">
+              empty
+              <i class="header__topbar-down-icon fas fa-chevron-down"></i>
+            </span>
+          </div>
+        </div>
+
+        <div
+          class="header__main"
+          style="background-image: url('../images/header-banner.jpg');"
+        >
+          <nav class="header__main-top">
+            <div class="header__main-top-logo">
+              <h1>Avenue</h1>
+              <h1>Fashion</h1>
+            </div>
+            <ul class="header__main-menu hide--small-screen">
+              <li class="header__main-item">
+                <a href="#" class="header__main-item-link">
+                  Mens
+                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+                </a>
+                <div class="submenu">
+                  <div class="submenu__category">
+                    <div class="submenu__category-item">
+                      <h4 class="submenu__category-item-title">Casuals</h4>
+                      <ul class="submenu__category-menu">
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Jackets
+                          </a>
+                        </li>
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Hoodies & Sweatshirts
+                          </a>
+                        </li>
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Polo Shirts
+                          </a>
+                        </li>
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Sportswear
+                          </a>
+                        </li>
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Trousers & Chinos
+                          </a>
+                        </li>
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            T-shirts
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__category-item">
+                      <h4 class="submenu__category-item-title">Formal</h4>
+                      <ul class="submenu__category-menu">
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Jackets
+                          </a>
+                        </li>
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Shirts
+                          </a>
+                        </li>
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Suits
+                          </a>
+                        </li>
+                        <li class="submenu__category-menu-item">
+                          <a href="#" class="submenu__category-menu-item-link">
+                            Trouser
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="submenu__sale">
+                    <h1 class="submenu__sale-title">Autumn sale!</h1>
+                    <h1 class="submenu__sale-info">Up to 50% off!</h1>
+                  </div>
+                </div>
+              </li>
+              <li class="header__main-item">
+                <a href="#" class="header__main-item-link">
+                  Womens
+                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li class="header__main-item">
+                <a href="#" class="header__main-item-link">
+                  The brand
+                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li class="header__main-item">
+                <a href="#" class="header__main-item-link">
+                  Local store
+                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li class="header__main-item">
+                <a href="#" class="header__main-item-link">
+                  Look book
+                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="header__main-search">
+              <input
+                type="text"
+                class="header__main-search-input"
+                placeholder="Search"
+              />
+              <i class="header__main-search-icon fas fa-search"></i>
+            </div>
+          </nav>
+          <div class="header__main-content">
+            <div class="header__main-content-ave">
+              <span class="header__main-content-ave-item">A</span>
+              <span class="header__main-content-ave-item">V</span>
+              <span class="header__main-content-ave-item">E</span>
+            </div>
+
+            <button class="header__main-content-btn">
+              Shop men's collection
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <div class="app-content"></div>
+
+      <!-- Footer -->
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>
