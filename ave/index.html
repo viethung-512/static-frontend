@@ -20,157 +20,98 @@
   </head>
   <body>
     <div class="app">
-      <!-- Header -->
-      <header class="header">
-        <div class="header__topbar">
-          <span class="header__topbar-currency">
-            Currency : GBP
-            <i class="header__topbar-down-icon fas fa-chevron-down"></i>
-          </span>
-          <div class="header__topbar-auth">
-            <a href="#" class="header__topbar-item">Register</a>
-            <a href="#" class="header__topbar-item">Sign In</a>
-          </div>
-          <div class="header__topbar-cart">
-            <i class="header__topbar-cart-icon fas fa-shopping-cart"></i>
-            <span class="header__topbar-cart-label">
-              empty
-              <i class="header__topbar-down-icon fas fa-chevron-down"></i>
-            </span>
-          </div>
+      <!-- Start topbar -->
+      <div class="topbar">
+        <label for="menu-mobile" class="menu-mobile">
+          <i class="fas fa-bars"></i>
+        </label>
+        <div class="logo-mobile">
+          <h2>AVENUE</h2>
+          <h2>FASHION</h2>
         </div>
+        <input type="checkbox" id="menu-mobile" hidden />
+        <a class="topbar__left hide--small-screen" href="#">
+          <span class="topbar__left-label">Currency : GBP</span>
+          <i class="topbar__left-icon fas fa-chevron-down"></i>
+        </a>
+        <div class="topbar__right">
+          <ul class="topbar__right-auth hide--mobile">
+            <li class="topbar__right-auth-item">
+              <a href="#" class="topbar__right-auth-link">Register</a>
+            </li>
+            <li class="topbar__right-auth-item">
+              <a href="#" class="topbar__right-auth-link">Sign In</a>
+            </li>
+          </ul>
+          <a href="#" class="topbar__right-cart">
+            <i class="topbar__right-cart-icon fas fa-shopping-cart"></i>
+            <span class="topbar__right-cart-label hide--mobile">
+              empty
+              <i class="topbar__right-cart-label-icon fas fa-chevron-down"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+      <!-- End topbar -->
 
-        <div
-          class="header__main"
-          style="background-image: url('./images/header-banner.jpg');"
-        >
-          <nav class="header__main-top">
-            <div class="header__main-top-logo">
-              <h1>Avenue</h1>
-              <h1>Fashion</h1>
-            </div>
-            <ul class="header__main-menu hide--small-screen">
-              <li class="header__main-item">
-                <a href="#" class="header__main-item-link">
-                  Mens
-                  <i class="header__main-item-icon fas fa-chevron-down"></i>
-                </a>
-                <div class="submenu">
-                  <div class="submenu__category">
-                    <div class="submenu__category-item">
-                      <h4 class="submenu__category-item-title">Casuals</h4>
-                      <ul class="submenu__category-menu">
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Jackets
-                          </a>
-                        </li>
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Hoodies & Sweatshirts
-                          </a>
-                        </li>
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Polo Shirts
-                          </a>
-                        </li>
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Sportswear
-                          </a>
-                        </li>
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Trousers & Chinos
-                          </a>
-                        </li>
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            T-shirts
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="submenu__category-item">
-                      <h4 class="submenu__category-item-title">Formal</h4>
-                      <ul class="submenu__category-menu">
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Jackets
-                          </a>
-                        </li>
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Shirts
-                          </a>
-                        </li>
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Suits
-                          </a>
-                        </li>
-                        <li class="submenu__category-menu-item">
-                          <a href="#" class="submenu__category-menu-item-link">
-                            Trouser
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="submenu__sale">
-                    <h1 class="submenu__sale-title">Autumn sale!</h1>
-                    <h1 class="submenu__sale-info">Up to 50% off!</h1>
-                  </div>
-                </div>
-              </li>
-              <li class="header__main-item">
-                <a href="#" class="header__main-item-link">
-                  Womens
-                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+      <!-- start header -->
+      <header class="header header-image" style="">
+        <nav class="header__top">
+          <a class="logo hide--mobile" href="/">
+            <h1>AVENUE</h1>
+            <h1>FASHION</h1>
+          </a>
+          <div class="header__top-right">
+            <ul class="header__top-menu hide--small-screen">
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  MENS
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
                 </a>
               </li>
-              <li class="header__main-item">
-                <a href="#" class="header__main-item-link">
-                  The brand
-                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  WOMENS
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
                 </a>
               </li>
-              <li class="header__main-item">
-                <a href="#" class="header__main-item-link">
-                  Local store
-                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  THE BRAND
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
                 </a>
               </li>
-              <li class="header__main-item">
-                <a href="#" class="header__main-item-link">
-                  Look book
-                  <i class="header__main-item-icon fas fa-chevron-down"></i>
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  LOCAL STORES
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  LOOK BOOK
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
                 </a>
               </li>
             </ul>
-            <div class="header__main-search">
-              <input
-                type="text"
-                class="header__main-search-input"
-                placeholder="Search"
-              />
-              <i class="header__main-search-icon fas fa-search"></i>
+            <div class="header__top-search">
+              <input type="text" placeholder="Search" />
+              <a href="#" class="header__top-search-icon">
+                <i class="fas fa-search"></i>
+              </a>
             </div>
-          </nav>
-          <div class="header__main-content">
-            <div class="header__main-content-ave">
-              <span class="header__main-content-ave-item">A</span>
-              <span class="header__main-content-ave-item">V</span>
-              <span class="header__main-content-ave-item">E</span>
-            </div>
-
-            <button class="header__main-content-btn">
-              Shop men's collection
-            </button>
           </div>
+        </nav>
+        <div class="header__container hide--mobile">
+          <div class="header__container-logo">
+            <h1>A</h1>
+            <h1>V</h1>
+            <h1>E</h1>
+          </div>
+          <a href="#" class="header__container-btn">SHOP MEN'S COLLECTION</a>
         </div>
       </header>
+      <!-- end header -->
 
       <!-- Content -->
       <div class="app-content"></div>
