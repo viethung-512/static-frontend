@@ -21,3 +21,16 @@ html {
 body {
   margin: 0;
 }
+
+hr {
+  color: #999;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
