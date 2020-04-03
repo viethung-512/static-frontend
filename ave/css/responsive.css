@@ -40,6 +40,10 @@
   .hide--tablet {
     display: none;
   }
+
+  .header__container-btn {
+    bottom: 40px;
+  }
 }
 
 /* only mobile */
