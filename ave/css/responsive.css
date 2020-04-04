@@ -33,6 +33,15 @@
     font-weight: 700;
     line-height: 20rem;
   }
+
+  .footer__fashion-tag h1,
+  .footer__socials-icon {
+    font-size: 2.6rem;
+  }
+
+  .footer__category-item {
+    margin-bottom: 40px;
+  }
 }
 
 /* only tablet */
@@ -43,6 +52,10 @@
 
   .header__container-btn {
     bottom: 40px;
+  }
+
+  .footer__socials {
+    padding: 0 70px;
   }
 }
 
@@ -79,5 +92,17 @@
   .header__top-search,
   .header__top-search input {
     flex: 1;
+  }
+
+  .footer {
+    padding: 60px 16px 0 16px;
+  }
+
+  .footer__fashion-tag {
+    margin-bottom: 16px;
+  }
+
+  .footer__socials {
+    padding: 0 86px;
   }
 }

@@ -26,6 +26,10 @@ hr {
   color: #999;
 }
 
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

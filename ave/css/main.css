@@ -1,9 +1,18 @@
+.app {
+  overflow: hidden;
+}
+
 /* start topbar */
 .topbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: var(--secondary-color);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .menu-mobile {
@@ -86,6 +95,7 @@
   display: flex;
   padding-top: 40px;
   flex-direction: column;
+  margin-top: var(--header-top-height);
 }
 
 .header.header-image {
@@ -400,3 +410,89 @@
   line-height: 3.6rem;
 }
 /* subnav end */
+
+/* footer start */
+.footer {
+  display: block;
+  background-color: #f8f8f8;
+  padding-top: 60px;
+}
+
+.footer__category-item {
+  display: block;
+}
+
+.footer__category-item-header {
+  font-size: 1.3rem;
+  color: #817d7e;
+  font-weight: 500;
+  margin: 0;
+}
+
+.footer__category-item-menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__category-item-menu-item:hover .footer__category-item-menu-item-link {
+  color: var(--primary-color);
+}
+
+.footer__category-item-menu-item-link {
+  display: block;
+  font-size: 1.4rem;
+  color: #727272;
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+.footer__fashion-tag {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.footer__fashion-tag h1 {
+  margin: 0;
+  font-size: 3.6rem;
+}
+
+.footer__fashion-tag h1:first-child {
+  font-weight: 500;
+}
+
+.footer__fashion-tag h1:last-child {
+  font-weight: 300;
+}
+
+.footer__socials {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 110px;
+  height: 200px;
+}
+
+.footer__socials-icon {
+  font-size: 3.6rem;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: #999;
+  height: 45px;
+  margin-top: 58px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+/* footer end */
