@@ -1,3 +1,7 @@
+.hide {
+  display: none;
+}
+
 @media (max-width: 1600px) and (min-width: 1110px) {
   .lookbook {
     flex-direction: column;
@@ -43,6 +47,13 @@
   }
 }
 
+/* tablet to pc */
+@media (min-width: 1024px) {
+  .hide--tablet-to-pc {
+    display: none;
+  }
+}
+
 /* mobile and tablet */
 @media (max-width: 1023px) {
   .hide--small-screen {
@@ -77,6 +88,10 @@
 
   .store {
     margin: 24px 0 24px 0;
+  }
+
+  .brand-logo {
+    padding: 16px;
   }
 
   .footer {
@@ -176,6 +191,15 @@
 
   .lookbook__info-action {
     margin-left: 0;
+  }
+
+  .app-content__brands {
+    padding: 0 16px;
+    margin-top: 0;
+  }
+
+  .brand__image {
+    height: 200px;
   }
 
   .footer {
