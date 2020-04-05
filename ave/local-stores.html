@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap&subset=vietnamese"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <title>AVE</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- Start topbar -->
+      <div class="topbar">
+        <label for="menu-mobile" class="menu-mobile">
+          <i class="fas fa-bars"></i>
+        </label>
+        <div class="logo-mobile">
+          <h2>AVENUE</h2>
+          <h2>FASHION</h2>
+        </div>
+        <input type="checkbox" id="menu-mobile" hidden />
+        <a class="topbar__left hide--small-screen" href="#">
+          <span class="topbar__left-label">Currency : GBP</span>
+          <i class="topbar__left-icon fas fa-chevron-down"></i>
+        </a>
+        <div class="topbar__right">
+          <ul class="topbar__right-auth hide--mobile">
+            <li class="topbar__right-auth-item">
+              <a href="#" class="topbar__right-auth-link">Register</a>
+            </li>
+            <li class="topbar__right-auth-item">
+              <a href="#" class="topbar__right-auth-link">Sign In</a>
+            </li>
+          </ul>
+          <a href="#" class="topbar__right-cart">
+            <i class="topbar__right-cart-icon fas fa-shopping-cart"></i>
+            <span class="topbar__right-cart-label hide--mobile">
+              empty
+              <i class="topbar__right-cart-label-icon fas fa-chevron-down"></i>
+            </span>
+          </a>
+        </div>
+
+        <!-- overlay start -->
+        <label for="menu-mobile" class="overlay"></label>
+        <!-- overlay end -->
+
+        <!-- mobile menu start -->
+        <nav class="navbar__mobile">
+          <label for="menu-mobile" class="navbar__mobile-close">
+            <i class="navbar__mobile-header-close-icon fas fa-times"></i>
+          </label>
+          <div class="navbar__mobile-header">
+            <h3>AVENUE</h3>
+            <h3>FASHION</h3>
+          </div>
+          <hr />
+          <div class="navbar__mobile-avatar">
+            <div class="navbar__mobile-avatar-image"></div>
+            <span class="navbar__mobile-avatar-label">BANG</span>
+          </div>
+          <hr />
+          <ul class="navbar__mobile-list">
+            <li class="navbar__mobile-item">
+              <a href="#" class="navbar__mobile-item-header">
+                <i class="navbar__mobile-item-icon fas fa-angle-down"></i>
+                CATEGORIES
+              </a>
+              <ul class="navbar__mobile-item-categories">
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    MENS
+                  </a>
+                </li>
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    WOMENS
+                  </a>
+                </li>
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    THE BRAND
+                  </a>
+                </li>
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    LOCAL STORES
+                  </a>
+                </li>
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    LOOK BOOK
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar__mobile-item">
+              <a href="#" class="navbar__mobile-item-header">
+                <i class="navbar__mobile-item-icon fas fa-angle-down"></i>
+                LOOKBOOK
+              </a>
+              <ul class="navbar__mobile-item-categories">
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    POPULAR
+                  </a>
+                </li>
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    NEW ARRIVALS
+                  </a>
+                </li>
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    BEST SELLERS
+                  </a>
+                </li>
+                <li class="navbar__mobile-item-category">
+                  <a href="#" class="navbar__mobile-item-category-link">
+                    COMMING SOON
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar__mobile-item">
+              <i class="navbar__mobile-item-icon fas fa-cog"></i>
+              SETUP
+            </li>
+            <li class="navbar__mobile-item">
+              <i class="navbar__mobile-item-icon fas fa-sign-out-alt"></i>
+              LOG OUT
+            </li>
+          </ul>
+        </nav>
+        <!-- mobile menu end -->
+      </div>
+      <!-- End topbar -->
+
+      <!-- start header -->
+      <header class="header">
+        <nav class="header__top">
+          <a class="logo hide--mobile" href="/">
+            <h1>AVENUE</h1>
+            <h1>FASHION</h1>
+          </a>
+          <div class="header__top-right">
+            <ul class="header__top-menu hide--small-screen">
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  MENS
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
+                </a>
+
+                <!-- start subnav -->
+                <div class="subnav">
+                  <div class="subnav__list">
+                    <ul class="subnav__list-menu">
+                      <li class="subnav__list-item">CASUALS</li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link">Jackets</a>
+                      </li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link"
+                          >Hoodies & Sweatshirts</a
+                        >
+                      </li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link"
+                          >Polo Shirts</a
+                        >
+                      </li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link"
+                          >Sportswear</a
+                        >
+                      </li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link"
+                          >Trousers & Chinos</a
+                        >
+                      </li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link">T-shirts</a>
+                      </li>
+                    </ul>
+
+                    <ul class="subnav__list-menu">
+                      <li class="subnav__list-item">FORMAL</li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link">Jackets</a>
+                      </li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link">Shirts</a>
+                      </li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link">Suits</a>
+                      </li>
+                      <li class="subnav__list-item">
+                        <a href="#" class="subnav__list-item-link">Trousers</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="subnav__sale">
+                    <h1>AUTUMN SALE!</h1>
+                    <h1>UP TO 50% OFF</h1>
+                  </div>
+                </div>
+                <!-- end subnav -->
+              </li>
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  WOMENS
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  THE BRAND
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  LOCAL STORES
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li class="header__top-item">
+                <a href="#" class="header__top-item-link">
+                  LOOK BOOK
+                  <i class="header__top-item-icon fas fa-chevron-down"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="header__top-search">
+              <input type="text" placeholder="Search" />
+              <a href="#" class="header__top-search-icon">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="header__container hide--mobile"
+          style="background-image: url('./images/the__brand-header.jpg');"
+        >
+          <div class="header__container-overlay">
+            <div class="header__container-brandname">
+              THE <span>BRAND</span>
+            </div>
+            <div class="header__container-slogan">COMPANY SLOGAN GOES HERE</div>
+          </div>
+          <div class="header__container-logo header__container-logo--brandpage">
+            <h1 class="header__container-logo--blur">A</h1>
+            <h1 class="header__container-logo--blur">V</h1>
+            <h1 class="header__container-logo--blur">E</h1>
+          </div>
+        </div>
+      </header>
+      <!-- end header -->
+
+      <!-- Content -->
+      <div class="app-content">
+        <div class="app-content__stores">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-4 m-6 s-12">
+                <div class="store">
+                  <div class="store__name">
+                    <a href="#" class="store__name-link">LONDON</a>
+                  </div>
+                  <div class="store__detail">
+                    <h3>
+                      180-182 Regent Street, London, W1B 5BT
+                    </h3>
+                  </div>
+                  <div class="store__description">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing esi
+                      elit. Vi
+                    </p>
+                  </div>
+                  <a href="#" class="store__actions-view">VIEW DETAILS</a>
+                </div>
+              </div>
+
+              <div class="col l-4 m-6 s-12">
+                <div class="store">
+                  <div class="store__name">
+                    <a href="#" class="store__name-link">NEW YORK</a>
+                  </div>
+                  <div class="store__detail">
+                    <h3>
+                      109 Columbus Circle, New York, NY 10023
+                    </h3>
+                  </div>
+                  <div class="store__description">
+                    <p>
+                      Nunc non posuere nisl. Etiam finibus vel dui nec lobortis.
+                      Aliq
+                    </p>
+                  </div>
+                  <a href="#" class="store__actions-view">VIEW DETAILS</a>
+                </div>
+              </div>
+
+              <div class="col l-4 m-12 s-12">
+                <div class="store">
+                  <div class="store__name">
+                    <a href="#" class="store__name-link">PARIS</a>
+                  </div>
+                  <div class="store__detail">
+                    <h3>
+                      2133 Rue Saint-Honoré, 75001 Paris
+                    </h3>
+                  </div>
+                  <div class="store__description">
+                    <p>
+                      Ut interdum fermentum blandit. Donec nec lacus egetit mi
+                      rhoncu
+                    </p>
+                  </div>
+                  <a href="#" class="store__actions-view">VIEW DETAILS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="grid wide">
+          <div class="row mb-40">
+            <div class="col l-2-4 m-4 s-6">
+              <div class="footer__category-item">
+                <h3 class="footer__category-item-header">INFORMATION</h3>
+                <ul class="footer__category-item-menu">
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      The brand
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Local stores
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Customer Service
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Privacy & cookies
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Site map
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 s-6">
+              <div class="footer__category-item">
+                <h3 class="footer__category-item-header">WHY BUY FROM US</h3>
+                <ul class="footer__category-item-menu">
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Shipping &returns
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Secure shopping
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Testimonials
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Award winning
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Ethical trading
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 s-6">
+              <div class="footer__category-item">
+                <h3 class="footer__category-item-header">YOUR ACCOUNT</h3>
+                <ul class="footer__category-item-menu">
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Sign in
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Register
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      View cart
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      View your lookbook
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Track an order
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Update information
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 s-6">
+              <div class="footer__category-item">
+                <h3 class="footer__category-item-header">LOOKBOOK</h3>
+                <ul class="footer__category-item-menu">
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Latest posts
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Men's lookbook
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Women's lookbook
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Lookbooks RSS feed
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      View your lookbook
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Delete your lookbook
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col l-2-4 m-4 s-12">
+              <div class="footer__category-item">
+                <h3 class="footer__category-item-header">CONTACT DETAILS</h3>
+                <ul class="footer__category-item-menu">
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Head Office: Avenue Fashion, 180-182 Regent Street,
+                      London.
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Telephone: 0123-456-789
+                    </a>
+                  </li>
+                  <li class="footer__category-item-menu-item">
+                    <a href="#" class="footer__category-item-menu-item-link">
+                      Email: support@yourwebsite.com
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l-6 m-6 s-12">
+              <div class="footer__fashion-tag">
+                <h1>AWARD WINNEER</h1>
+                <h1>FASHION AWARDS 2016</h1>
+              </div>
+            </div>
+            <div class="col l-6 m-6 s-12">
+              <div class="footer__socials">
+                <i class="footer__socials-icon fab fa-facebook-f"></i>
+                <i class="footer__socials-icon fab fa-twitter"></i>
+                <i class="footer__socials-icon fab fa-instagram"></i>
+                <i class="footer__socials-icon fab fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          © 2020 - Avenue Fashion
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

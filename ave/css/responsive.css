@@ -75,6 +75,10 @@
     margin-bottom: 0;
   }
 
+  .store {
+    margin: 24px 0 24px 0;
+  }
+
   .footer {
     margin-top: 125px;
   }
@@ -153,6 +157,10 @@
 
   .app-content__container {
     margin-top: 50px;
+  }
+
+  .app-content__stores {
+    padding: 60px 24px;
   }
 
   .lookbook {
