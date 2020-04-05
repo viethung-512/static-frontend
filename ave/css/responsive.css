@@ -94,6 +94,10 @@
     padding: 16px;
   }
 
+  .signup::before {
+    display: none;
+  }
+
   .footer {
     margin-top: 125px;
   }

@@ -959,3 +959,123 @@
   align-items: center;
 }
 /* end brand page */
+
+/* start authentication page */
+.auth {
+  margin: 60px 0;
+}
+
+.signin,
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 16px;
+  position: relative;
+}
+
+.signin__title,
+.signup__title {
+  font-size: 1.8rem;
+  color: #575153;
+  text-transform: uppercase;
+  padding: 48px 0;
+  margin: 0;
+}
+
+.signup::before {
+  content: '';
+  display: block;
+  height: 89%;
+  width: 1px;
+  background-color: #eee;
+  position: absolute;
+  left: -30px;
+  bottom: 0;
+}
+
+.signin__form,
+.signup__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.signin__form input,
+.signup__form input {
+  padding: 8px;
+  margin-bottom: 34px;
+  outline: none;
+}
+
+.signin__form-actions,
+.signup__form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signin__form-submit,
+.signup__form-submit {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 32px;
+  border: 1px solid #737373;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #454647;
+  min-width: 150px;
+}
+.signup__form-submit {
+  flex: 1;
+}
+
+.signin__form-submit:hover,
+.signup__form-submit:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: unset;
+}
+
+.signin__form-forgot-password,
+.signup__form-policy-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.signin__form-icon,
+.signup__form-icon {
+  margin-left: 4px;
+}
+
+.signup__form-policy {
+  flex: 1;
+  text-align: right;
+  font-size: 1.5rem;
+  color: #8e8c8c;
+  line-height: 1.5rem;
+  margin-left: 2px;
+}
+
+.signup__form-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 34px;
+}
+
+.signup__form-info-checkbox {
+  margin: 0 !important;
+  height: 25px;
+  width: 25px;
+}
+
+.signup__form-info-label {
+  font-size: 1.5rem;
+  color: #c8c7c7;
+  margin-left: 16px;
+}
+/* end authentication page */
