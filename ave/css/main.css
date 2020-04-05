@@ -95,7 +95,7 @@
   display: flex;
   padding-top: 40px;
   flex-direction: column;
-  margin-top: var(--header-top-height);
+  margin-top: var(--topbar-height);
 }
 
 .header.header-image {
