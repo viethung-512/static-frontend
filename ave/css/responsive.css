@@ -1,6 +1,45 @@
-@media (max-width: 1200px) and (min-width: 1024px) {
+@media (max-width: 1600px) and (min-width: 1110px) {
+  .lookbook {
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .lookbook__image {
+    display: none;
+  }
+
+  .lookbook__info {
+    text-align: left;
+    margin: 16px;
+  }
+
+  .lookbook__info-action {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1109px) and (min-width: 1024px) {
+  .lookbook {
+    padding-left: 56px;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    margin-top: 125px;
+  }
+}
+
+@media (max-width: 1350px) and (min-width: 1024px) {
   .header {
     padding-top: 24px;
+  }
+
+  .product__image {
+    height: 300px;
+  }
+
+  .product.product--big .product__image {
+    height: 500px;
   }
 }
 
@@ -34,6 +73,15 @@
     line-height: 20rem;
   }
 
+  .lookbook {
+    padding-left: 56px;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    margin-top: 125px;
+  }
+
   .footer__fashion-tag h1,
   .footer__socials-icon {
     font-size: 2.6rem;
@@ -52,6 +100,12 @@
 
   .header__container-btn {
     bottom: 40px;
+  }
+
+  .app-content__container-products,
+  .app-content__nav-list {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .footer__socials {
@@ -92,6 +146,31 @@
   .header__top-search,
   .header__top-search input {
     flex: 1;
+  }
+
+  .app-content__nav-list,
+  .app-content__container-products {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .app-content__container {
+    margin-top: 50px;
+  }
+
+  .lookbook {
+    height: 400px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .lookbook__info {
+    text-align: left;
+    margin: 16px;
+  }
+
+  .lookbook__info-action {
+    margin-left: 0;
   }
 
   .footer {
