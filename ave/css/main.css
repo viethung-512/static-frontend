@@ -93,7 +93,6 @@
 /* start header */
 .header {
   display: flex;
-  padding-top: 40px;
   flex-direction: column;
   margin-top: var(--topbar-height);
 }
@@ -110,6 +109,7 @@
   align-items: center;
   justify-content: space-around;
   height: var(--header-top-height);
+  padding: 40px 0;
 }
 
 .logo {
@@ -555,13 +555,19 @@
   margin-bottom: 24px;
 }
 
-.product:hover .product__detail {
+.product:hover .product__detail,
+.product:hover .product__information {
   display: block;
   animation: fadeIn linear 0.3s;
 }
 
+.product:hover .product__slide-image {
+  display: flex;
+  animation: fadeIn linear 0.3s;
+}
+
 .product:hover {
-  box-shadow: 2px 2px 20px #f4f4f4;
+  box-shadow: 2px 2px 10px #f4f4f4;
 }
 
 .product__image {
@@ -578,6 +584,13 @@
 
 .product__detail {
   display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: var(--white-color);
+  box-shadow: 2px 2px 10px #f4f4f4;
 }
 
 .product__info {
@@ -652,6 +665,7 @@
   left: 50%;
   transform: translateY(-50%);
   transform: translateX(-50%);
+  display: none;
 }
 
 .product__information:hover .product__information-icon {
@@ -672,6 +686,7 @@
   justify-content: space-between;
   height: 216px;
   width: 80px;
+  display: none;
 }
 
 .product__slide-image-item {
@@ -764,3 +779,47 @@
   border: unset;
 }
 /* end lookbook */
+
+/* start the brand header */
+.header__container-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__container-brandname {
+  font-size: 4.8rem;
+  color: var(--white-color);
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.header__container-brandname span {
+  font-weight: 300;
+}
+
+.header__container-slogan {
+  font-size: 3rem;
+  color: var(--white-color);
+  font-weight: 300;
+}
+
+.header__container-logo--blur {
+  opacity: 0.2;
+}
+
+.header__container-logo.header__container-logo--brandpage {
+  margin-top: 0;
+}
+
+.header__container-logo--brandpage {
+  color: #707070;
+}
+/* end the brand header */
