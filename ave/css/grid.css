@@ -16,6 +16,10 @@
   margin-right: -4px;
 }
 
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
 .row.no-gutters {
   margin-left: 0;
   margin-right: 0;

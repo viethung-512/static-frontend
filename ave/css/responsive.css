@@ -20,6 +20,10 @@
   .lookbook__info-action {
     margin-left: 0;
   }
+
+  .lookbook-item {
+    height: 400px;
+  }
 }
 
 @media (max-width: 1109px) and (min-width: 1024px) {
@@ -96,6 +100,10 @@
 
   .signup::before {
     display: none;
+  }
+
+  .lookbook-item.lookbook-item--large {
+    background-position: 20% center;
   }
 
   .footer {
@@ -193,8 +201,22 @@
     margin: 16px;
   }
 
+  .lookbook__info-title {
+    display: flex;
+  }
+
+  .lookbook__info-title h1 {
+    font-size: 2.7rem;
+    margin-right: 8px;
+  }
+
   .lookbook__info-action {
     margin-left: 0;
+  }
+
+  .lookbook__container {
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .app-content__brands {
@@ -204,6 +226,28 @@
 
   .brand__image {
     height: 200px;
+  }
+
+  .lookbook-item {
+    background-image: unset;
+  }
+
+  .lookbook-item__container {
+    flex: 1;
+    padding: 32px 16px;
+  }
+
+  .lookbook-item.lookbook-item--large {
+    background-position: left center;
+    height: 400px;
+  }
+
+  .lookbook-item__container-title h1 {
+    font-size: 2.7rem;
+  }
+
+  .lookbook-item__container-title h1:first-child {
+    margin-right: 8px;
   }
 
   .footer {
