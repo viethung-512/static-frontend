@@ -44,6 +44,10 @@
   padding: 46px 16px;
 }
 
+.header__menu--lg-item-link--active {
+  color: var(--primary-color);
+}
+
 .header__menu--lg-item-link:hover {
   color: var(--primary-color);
 }
