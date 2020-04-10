@@ -1,0 +1,99 @@
+:root {
+  --title-font: 'Montserrat', sans-serif;
+  --primary-font: 'Nunito Sans', sans-serif;
+  --primary-color: #10c9c3;
+  --title-color: #191919;
+  --simple-text-color: #787878;
+  --white-color: #fff;
+  --space-mobile: 16px;
+  --space-tablet: 24px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: var(--primary-font);
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  overflow: hidden;
+}
+
+.btn {
+  display: flex;
+  min-width: 180px;
+  min-height: 54px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.input-primary {
+  padding: 8px;
+  border: none;
+  outline: none;
+  min-height: 50px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  animation: fadeIn ease-in 0.3s;
+}
+
+/* animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* base space */
+.mr-4 {
+  margin-right: 4px;
+}
+
+.mr-6 {
+  margin-right: 6px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-12 {
+  margin-right: 12px;
+}
+
+.mr-14 {
+  margin-right: 14px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
