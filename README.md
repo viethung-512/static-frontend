@@ -10,5 +10,7 @@ https://viethung512.github.io/static-fontend/ave/brand.html
 https://viethung512.github.io/static-fontend/ave/local-stores.html
 ### Lookbook page
 https://viethung512.github.io/static-fontend/ave/lookbook.html
+### Product detail page
+https://viethung512.github.io/static-fontend/ave/product.html
 ### Authentication page
 https://viethung512.github.io/static-fontend/ave/signup.html
