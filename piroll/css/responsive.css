@@ -56,9 +56,36 @@
     max-width: 50%;
   }
 
+  .contact__main-form {
+    width: 50%;
+  }
+
+  .contact__main-form .project-form__basic-info {
+    flex-direction: column;
+  }
+
+  .contact__main-form .project-form__basic-info .input-primary--name {
+    margin-right: 0;
+    margin-bottom: 28px;
+  }
+
+  .contact__main-form .project-form__basic-info .input-primary--email {
+    margin-left: 0;
+  }
+
+  .contact__main-form .project-form__btn-submit {
+    width: 100%;
+    margin-right: 0;
+    min-width: 100%;
+  }
+
   .app-container__skill.app-container__skill--about-page {
     padding-left: 40px;
     padding-right: 100px;
+  }
+
+  .app-container__contact-page {
+    padding: 50px var(--space-tablet);
   }
 }
 
@@ -208,6 +235,33 @@
 
   .project-form__btn-submit.project-form__btn-submit--about-page {
     margin: 0;
+  }
+
+  .app-container__contact-page {
+    padding: 50px var(--space-mobile);
+  }
+
+  .contact__main {
+    margin-bottom: 50px;
+  }
+
+  .contact__main-info-title {
+    font-size: 2.6rem;
+    margin-bottom: 28px;
+  }
+
+  .contact__main-info-content {
+    margin-bottom: 28px;
+  }
+
+  .contact__main-form {
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 0;
+  }
+
+  .contact__address {
+    height: 200px;
   }
 
   .footer {
