@@ -30,107 +30,109 @@
     <div class="app">
       <!-- start header -->
       <header class="banner">
-        <nav class="header">
-          <input type="checkbox" id="mobile-menu-checkbox" hidden />
-          <div class="header__logo">
-            <img
-              src="./images/logo/logo.png"
-              alt="logo"
-              class="header__logo-img"
-            />
-          </div>
-          <label for="mobile-menu-checkbox" class="mobile-menu-btn">
-            <span class="ti-menu"></span>
-          </label>
-          <!-- start overlay -->
-          <label for="mobile-menu-checkbox" class="overlay"></label>
-          <!-- end overlay -->
-
-          <!-- start menu mobile -->
-          <div class="header__menu-mobile">
-            <div class="menu-mobile__header">
-              <label for="mobile-menu-checkbox" class="mobile-close-btn">
-                <span class="ti-close"></span>
-              </label>
-
-              <div class="menu-mobile__header-logo">
-                <img
-                  src="./images/logo/logo.png"
-                  alt="logo"
-                  class="menu-mobile__header-logo-img"
-                />
-              </div>
+        <div class="header-wrapper">
+          <nav class="header">
+            <input type="checkbox" id="mobile-menu-checkbox" hidden />
+            <div class="header__logo">
+              <img
+                src="./images/logo/logo.png"
+                alt="logo"
+                class="header__logo-img"
+              />
             </div>
-            <nav class="menu-mobile__container">
-              <ul class="header__menu--sm">
-                <li class="header__menu--sm-item">
-                  <a href="#" class="header__menu--sm-item-link">
-                    home
-                  </a>
-                </li>
-                <li class="header__menu--sm-item">
-                  <a href="#" class="header__menu--sm-item-link">
-                    about
-                  </a>
-                </li>
-                <li class="header__menu--sm-item">
-                  <a href="#" class="header__menu--sm-item-link">
-                    work
-                  </a>
-                </li>
-                <li class="header__menu--sm-item">
-                  <a href="#" class="header__menu--sm-item-link">
-                    process
-                  </a>
-                </li>
-                <li class="header__menu--sm-item">
-                  <a href="#" class="header__menu--sm-item-link">
-                    services
-                  </a>
-                </li>
-                <li class="header__menu--sm-item">
-                  <a href="#" class="header__menu--sm-item-link">
-                    testimonials
-                  </a>
-                </li>
-                <li class="header__menu--sm-item">
-                  <a href="#" class="header__menu--sm-item-link">
-                    contact
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+            <label for="mobile-menu-checkbox" class="mobile-menu-btn">
+              <span class="ti-menu"></span>
+            </label>
+            <!-- start overlay -->
+            <label for="mobile-menu-checkbox" class="overlay"></label>
+            <!-- end overlay -->
 
-          <!-- end menu mobile -->
+            <!-- start menu mobile -->
+            <div class="header__menu-mobile">
+              <div class="menu-mobile__header">
+                <label for="mobile-menu-checkbox" class="mobile-close-btn">
+                  <span class="ti-close"></span>
+                </label>
 
-          <!-- start menu pc -->
-          <ul class="header__menu--lg hide--mobile">
-            <li class="header__menu--lg-item">
-              <a href="#" class="header__menu--lg-item-link">home</a>
-            </li>
-            <li class="header__menu--lg-item">
-              <a href="#" class="header__menu--lg-item-link">about</a>
-            </li>
-            <li class="header__menu--lg-item">
-              <a href="#" class="header__menu--lg-item-link">work</a>
-            </li>
-            <li class="header__menu--lg-item">
-              <a href="#" class="header__menu--lg-item-link">process</a>
-            </li>
-            <li class="header__menu--lg-item">
-              <a href="#" class="header__menu--lg-item-link">services</a>
-            </li>
-            <li class="header__menu--lg-item">
-              <a href="#" class="header__menu--lg-item-link">testimonials</a>
-            </li>
-            <li class="header__menu--lg-item">
-              <a href="#" class="header__menu--lg-item-link">contact</a>
-            </li>
-          </ul>
-          <!-- end menu pc -->
-        </nav>
-        <div class="banner__container">
+                <div class="menu-mobile__header-logo">
+                  <img
+                    src="./images/logo/logo.png"
+                    alt="logo"
+                    class="menu-mobile__header-logo-img"
+                  />
+                </div>
+              </div>
+              <nav class="menu-mobile__container">
+                <ul class="header__menu--sm">
+                  <li class="header__menu--sm-item">
+                    <a href="#" class="header__menu--sm-item-link">
+                      home
+                    </a>
+                  </li>
+                  <li class="header__menu--sm-item">
+                    <a href="#" class="header__menu--sm-item-link">
+                      about
+                    </a>
+                  </li>
+                  <li class="header__menu--sm-item">
+                    <a href="#" class="header__menu--sm-item-link">
+                      work
+                    </a>
+                  </li>
+                  <li class="header__menu--sm-item">
+                    <a href="#" class="header__menu--sm-item-link">
+                      process
+                    </a>
+                  </li>
+                  <li class="header__menu--sm-item">
+                    <a href="#" class="header__menu--sm-item-link">
+                      services
+                    </a>
+                  </li>
+                  <li class="header__menu--sm-item">
+                    <a href="#" class="header__menu--sm-item-link">
+                      testimonials
+                    </a>
+                  </li>
+                  <li class="header__menu--sm-item">
+                    <a href="#" class="header__menu--sm-item-link">
+                      contact
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <!-- end menu mobile -->
+
+            <!-- start menu pc -->
+            <ul class="header__menu--lg hide--mobile">
+              <li class="header__menu--lg-item">
+                <a href="#" class="header__menu--lg-item-link">home</a>
+              </li>
+              <li class="header__menu--lg-item">
+                <a href="#" class="header__menu--lg-item-link">about</a>
+              </li>
+              <li class="header__menu--lg-item">
+                <a href="#" class="header__menu--lg-item-link">work</a>
+              </li>
+              <li class="header__menu--lg-item">
+                <a href="#" class="header__menu--lg-item-link">process</a>
+              </li>
+              <li class="header__menu--lg-item">
+                <a href="#" class="header__menu--lg-item-link">services</a>
+              </li>
+              <li class="header__menu--lg-item">
+                <a href="#" class="header__menu--lg-item-link">testimonials</a>
+              </li>
+              <li class="header__menu--lg-item">
+                <a href="#" class="header__menu--lg-item-link">contact</a>
+              </li>
+            </ul>
+            <!-- end menu pc -->
+          </nav>
+        </div>
+        <div class="banner__main">
           <div class="grid wide">
             <div class="row">
               <div class="col l-o-7">
@@ -149,6 +151,7 @@
             </div>
           </div>
         </div>
+        <div class="banner__container"></div>
       </header>
       <!-- end header -->
 
