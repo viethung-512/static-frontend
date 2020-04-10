@@ -1,8 +1,7 @@
 /* tablet to pc */
 @media (min-width: 740px) and (max-width: 1119px) {
   .header {
-    margin-left: var(--margin-tablet);
-    margin-right: var(--margin-tablet);
+    padding: 0 var(--space-tablet);
   }
 }
 
@@ -47,6 +46,14 @@
   .banner {
     height: 500px;
   }
+
+  .header {
+    padding: 0 var(--space-tablet);
+  }
+
+  .banner-home-page {
+    max-width: 50%;
+  }
 }
 
 /* only mobile */
@@ -59,9 +66,7 @@
   }
 
   .header {
-    margin-left: var(--space-mobile);
-    margin-right: var(--space-mobile);
-    padding-top: 24px;
+    padding: 24px var(--space-mobile);
   }
 
   .banner__info {
@@ -162,6 +167,18 @@
   .btn.btn-primary.project-form__btn-submit {
     width: 100%;
     max-width: 100%;
+  }
+
+  .banner__container {
+    padding: 0 var(--space-mobile);
+  }
+
+  .banner-home-page {
+    max-width: 100%;
+  }
+
+  .banner-home-page__title {
+    font-size: 3rem;
   }
 
   .footer {

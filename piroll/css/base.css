@@ -28,6 +28,10 @@ body {
   overflow: hidden;
 }
 
+.bg-white {
+  background-color: var(--white-color);
+}
+
 .btn {
   display: flex;
   min-width: 180px;
