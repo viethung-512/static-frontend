@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css"
+    />
+    <title>Velox</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- HEADER TOP -->
+      <div class="top-header-wrapper hide--mobile">
+        <div class="top-header">
+          <!-- contact -->
+          <div class="top-header__contact">
+            <span class="top-header__contact-email">
+              <span class="top-header__contact-icon ti-email"></span>
+              emailme@velox.com
+            </span>
+            <span class="top-header__contact-phone">
+              <span class="top-header__contact-icon ti-mobile"></span>
+              (04) 3100 1660
+            </span>
+          </div>
+
+          <!-- shares social -->
+          <div class="top-header__shares">
+            <span class="top-header__shares-icon ti-facebook"></span>
+            <span class="top-header__shares-icon ti-twitter-alt"></span>
+            <span class="top-header__shares-icon ti-google"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- HEADER -->
+      <header class="header">
+        <!-- desktop navbar -->
+        <nav class="header__main">
+          <div class="mobile__menu-btn">
+            <input type="checkbox" id="menu__mobile-checkbox" hidden />
+            <label for="menu__mobile-checkbox">
+              <span class="header__icon header__icon-menu ti-menu"></span>
+            </label>
+            <label for="menu__mobile-checkbox" class="overlay"></label>
+            <ul class="menu menu--small">
+              <li class="menu-item">
+                <div class="header__search">
+                  <input
+                    type="text"
+                    id="header__search-input--mobile"
+                    placeholder="Search"
+                  />
+                  <label
+                    for="header__search-input--mobile"
+                    class="header__icon header__icon--search"
+                  >
+                    <span class="ti-search"></span>
+                  </label>
+                </div>
+                <label for="menu__mobile-checkbox">
+                  <span class="header__icon header__icon-close ti-close"></span>
+                </label>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-item-link menu-item-link--small"
+                  >home</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-item-link menu-item-link--small"
+                  >features</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-item-link menu-item-link--small"
+                  >pages</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-item-link menu-item-link--small"
+                  >about</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-item-link menu-item-link--small"
+                  >portfolio</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-item-link menu-item-link--small"
+                  >blog</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-item-link menu-item-link--small"
+                  >contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <h1 class="logo logo--large">velox</h1>
+          <ul class="menu menu--large hide--small-screen">
+            <li class="menu-item menu--large-item">
+              <a
+                href="#"
+                class="menu-item-link menu--large-item-link menu-item-link--active"
+              >
+                home
+                <span class="menu--large-icon ti-angle-down"></span>
+              </a>
+            </li>
+            <li class="menu-item menu--large-item">
+              <a href="#" class="menu-item-link menu--large-item-link">
+                features
+                <span class="menu--large-icon ti-angle-down"></span>
+              </a>
+            </li>
+            <li class="menu-item menu--large-item menu--large-item--hasSub">
+              <a href="#" class="menu-item-link menu--large-item-link">
+                pages
+                <span class="menu--large-icon ti-angle-down"></span>
+              </a>
+            </li>
+            <li class="menu-item menu--large-item">
+              <a href="#" class="menu-item-link menu--large-item-link">
+                about
+                <span class="menu--large-icon ti-angle-down"></span>
+              </a>
+            </li>
+            <li class="menu-item menu--large-item">
+              <a href="#" class="menu-item-link menu--large-item-link">
+                portfolio
+                <span class="menu--large-icon ti-angle-down"></span>
+              </a>
+            </li>
+            <li class="menu-item menu--large-item">
+              <a href="#" class="menu-item-link menu--large-item-link">
+                blog
+                <span class="menu--large-icon ti-angle-down"></span>
+              </a>
+            </li>
+            <li class="menu-item menu--large-item">
+              <a href="#" class="menu-item-link menu--large-item-link">
+                contact
+                <span class="menu--large-icon ti-angle-down"></span>
+              </a>
+            </li>
+          </ul>
+          <div class="header__cart">
+            <span
+              class="header__icon header__icon--cart ti-shopping-cart"
+            ></span>
+          </div>
+          <div class="header__search hide--small-screen">
+            <input
+              type="text"
+              id="header__search-input--pc"
+              placeholder="Search"
+            />
+            <label
+              for="header__search-input--pc"
+              class="header__icon header__icon--search"
+            >
+              <span class="ti-search"></span>
+            </label>
+          </div>
+        </nav>
+      </header>
+
+      <!-- CONTENT -->
+      <div class="content">
+        <div
+          class="slider"
+          style="background-image: url('./images/banner/banner.jpg');"
+        ></div>
+        <ul class="services">
+          <li class="service">
+            <div class="service__logo">
+              <span class="service__logo-icon ti-mobile"></span>
+            </div>
+            <div class="service__details">
+              <h3 class="service__details-name">
+                <a href="#" class="service__details-name-link">
+                  responsive design
+                </a>
+              </h3>
+              <p class="service__details-content">
+                Nam liber tempor cum soluta nobis eleifend option congue nihil
+                imperdiet doming id quod mazim.
+              </p>
+            </div>
+          </li>
+          <li class="service">
+            <div class="service__logo">
+              <span class="service__logo-icon ti-settings"></span>
+            </div>
+            <div class="service__details">
+              <h3 class="service__details-name">
+                <a href="#" class="service__details-name-link">
+                  Easy Customize
+                </a>
+              </h3>
+              <p class="service__details-content">
+                Nam liber tempor cum soluta nobis eleifend option congue nihil
+                imperdiet doming id quod mazim.
+              </p>
+            </div>
+          </li>
+          <li class="service">
+            <div class="service__logo">
+              <span class="service__logo-icon ti-dashboard"></span>
+            </div>
+            <div class="service__details">
+              <h3 class="service__details-name">
+                <a href="#" class="service__details-name-link">
+                  fast and reliable
+                </a>
+              </h3>
+              <p class="service__details-content">
+                Nam liber tempor cum soluta nobis eleifend option congue nihil
+                imperdiet doming id quod mazim.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="why-choose-wrapper">
+          <div class="why-choose">
+            <div class="why-choose__header">
+              <h2 class="why-choose__header-title">Why Choose Us</h2>
+              <p class="why-choose__header-content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+                voluptatum repellat vero saepe, eius ab aperiam accusamus nisi
+                maxime commodi amet debitis delectus, ratione ipsam fugit minus
+                tenetur fuga cumque.
+              </p>
+            </div>
+            <div class="why-choose__images">
+              <img
+                src="./images/why-choose/main.jpg"
+                alt="main screen"
+                class="why-choose__img why-choose__img--main"
+              />
+              <img
+                src="./images/why-choose/default.jpg"
+                alt="left screen"
+                class="why-choose__img why-choose__img--left"
+              />
+              <img
+                src="./images/why-choose/default.jpg"
+                alt="right screen"
+                class="why-choose__img why-choose__img--right"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio">
+          <div class="portfolio__header">
+            <h3 class="portfolio__header-title">Portfolio</h3>
+            <p class="portfolio__header-detail">
+              Check out some of our lastest work
+            </p>
+          </div>
+          <div class="portfolio__content">
+            <div class="grid wide">
+              <div class="row large-space">
+                <div class="col l-4 m-6 s-12">
+                  <div class="portfolio-item">
+                    <div class="portfolio-item__header">
+                      <div
+                        class="portfolio-item__header-img"
+                        style="
+                          background-image: url('./images/portfolio/image-01.jpg');
+                        "
+                      ></div>
+                      <div class="portfolio-item__header-icons">
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--link fas fa-link"
+                        ></i>
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--search fas fa-search"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="portfolio-item__details">
+                      <h4 class="portfolio-item__details-name">horse</h4>
+                      <p class="portfolio-item__details-description">
+                        Illustration
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                  <div class="portfolio-item">
+                    <div class="portfolio-item__header">
+                      <div
+                        class="portfolio-item__header-img"
+                        style="
+                          background-image: url('./images/portfolio/image-02.jpg');
+                        "
+                      ></div>
+                      <div class="portfolio-item__header-icons">
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--link fas fa-link"
+                        ></i>
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--search fas fa-search"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="portfolio-item__details">
+                      <h4 class="portfolio-item__details-name">Cocorillo</h4>
+                      <p class="portfolio-item__details-description">
+                        Print Design
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                  <div class="portfolio-item">
+                    <div class="portfolio-item__header">
+                      <div
+                        class="portfolio-item__header-img"
+                        style="
+                          background-image: url('./images/portfolio/image-03.jpg');
+                        "
+                      ></div>
+                      <div class="portfolio-item__header-icons">
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--link fas fa-link"
+                        ></i>
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--search fas fa-search"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="portfolio-item__details">
+                      <h4 class="portfolio-item__details-name">
+                        Network Like a Pro
+                      </h4>
+                      <p class="portfolio-item__details-description">
+                        Web Design
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                  <div class="portfolio-item">
+                    <div class="portfolio-item__header">
+                      <div
+                        class="portfolio-item__header-img"
+                        style="
+                          background-image: url('./images/portfolio/image-04.jpg');
+                        "
+                      ></div>
+                      <div class="portfolio-item__header-icons">
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--link fas fa-link"
+                        ></i>
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--search fas fa-search"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="portfolio-item__details">
+                      <h4 class="portfolio-item__details-name">Cover</h4>
+                      <p class="portfolio-item__details-description">
+                        Print Design
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                  <div class="portfolio-item">
+                    <div class="portfolio-item__header">
+                      <div
+                        class="portfolio-item__header-img"
+                        style="
+                          background-image: url('./images/portfolio/image-05.jpg');
+                        "
+                      ></div>
+                      <div class="portfolio-item__header-icons">
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--link fas fa-link"
+                        ></i>
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--search fas fa-search"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="portfolio-item__details">
+                      <h4 class="portfolio-item__details-name">
+                        Seth Nickerson
+                      </h4>
+                      <p class="portfolio-item__details-description">
+                        Print Design
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                  <div class="portfolio-item">
+                    <div class="portfolio-item__header">
+                      <div
+                        class="portfolio-item__header-img"
+                        style="
+                          background-image: url('./images/portfolio/image-06.jpg');
+                        "
+                      ></div>
+                      <div class="portfolio-item__header-icons">
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--link fas fa-link"
+                        ></i>
+                        <i
+                          class="portfolio-item__header-icon portfolio-item__header-icon--search fas fa-search"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="portfolio-item__details">
+                      <h4 class="portfolio-item__details-name">Create One</h4>
+                      <p class="portfolio-item__details-description">
+                        Web Design
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog">
+          <div class="blog__header">
+            <h3 class="blog__header-title">Latest from Blog</h3>
+            <p class="blog__header-detail">
+              Tutorials, features, new release and more
+            </p>
+          </div>
+          <div class="blog__content">
+            <div class="grid wide">
+              <div class="row large-space">
+                <div class="col l-4 m-6 s-12">
+                  <div class="blog-item">
+                    <div class="blog-item__header">
+                      <div
+                        class="blog-item__header-img"
+                        style="
+                          background-image: url('./images/blog/blog-01.jpg');
+                        "
+                      >
+                        <p class="blog-item__header--quote">“</p>
+                        <p class="blog-item__header--description">
+                          Pellentesque euismod dolor risus, eu ultricies mauris
+                          interdum eu. Ut sit amet interdum sapien. Nulla
+                          facilisi.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="blog-item__container">
+                      <div class="blog-item__container-content">
+                        <h4 class="blog-item__container-content-name">
+                          Quote Post Title
+                        </h4>
+                        <p class="blog-item__container-content-description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Velit distinctio dolorem sed fugit dolores aut
+                          eius dolore, veritatis iure et iste fuga deleniti
+                          aperiam accusamus? Deleniti officia nobis consequuntur
+                          qui.
+                        </p>
+                      </div>
+                      <div class="blog-item__container-actions">
+                        <a
+                          href="#"
+                          class="blog-item__container-action blog-item__container-action--readmore"
+                          >Read More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col l-4 m-6 s-12">
+                  <div class="blog-item">
+                    <div class="blog-item__header">
+                      <div
+                        class="blog-item__header-img"
+                        style="
+                          background-image: url('./images/blog/blog-02.jpg');
+                        "
+                      >
+                        <div class="blog-item__header-control">
+                          <a href="#" class="blog-item__header-control--prev">
+                            <span class="ti-angle-left"></span>
+                          </a>
+                          <a href="#" class="blog-item__header-control--next">
+                            <span class="ti-angle-right"></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="blog-item__container">
+                      <div class="blog-item__container-content">
+                        <h4 class="blog-item__container-content-name">
+                          Gallery Post Title
+                        </h4>
+                        <p class="blog-item__container-content-description">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing
+                          elit. Temporibus sapiente molestiae ratione animi
+                          deleniti repellat nesciunt dolorem explicabo numquam
+                          fugit, fuga, nobis excepturi at, inventore aliquam
+                          dicta tenetur consequuntur unde!
+                        </p>
+                      </div>
+                      <div class="blog-item__container-actions">
+                        <a
+                          href="#"
+                          class="blog-item__container-action blog-item__container-action--readmore"
+                          >Read More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col l-4 m-12 s-12">
+                  <div class="blog-item">
+                    <div class="blog-item__header">
+                      <div
+                        class="blog-item__header-img"
+                        style="
+                          background-image: url('./images/blog/blog-03.jpg');
+                        "
+                      >
+                        <div class="blog-item__header-media">
+                          <i
+                            class="blog-item__header-media-icon fas fa-play"
+                          ></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="blog-item__container">
+                      <div class="blog-item__container-content">
+                        <h4 class="blog-item__container-content-name">
+                          Video Post Title
+                        </h4>
+                        <p class="blog-item__container-content-description">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Nostrum quia deserunt voluptate sequi, natus
+                          placeat maxime quaerat autem exercitationem saepe
+                          doloribus atque nobis nisi possimus sit ipsam, vel
+                          laboriosam labore.
+                        </p>
+                      </div>
+                      <div class="blog-item__container-actions">
+                        <a
+                          href="#"
+                          class="blog-item__container-action blog-item__container-action--readmore"
+                          >Read More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <ul class="clients">
+          <li>
+            <img
+              src="./images/client/client-01.png"
+              alt="client 01"
+              class="client"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/client/client-02.png"
+              alt="client 02"
+              class="client"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/client/client-03.png"
+              alt="client 03"
+              class="client"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/client/client-04.png"
+              alt="client 04"
+              class="client"
+            />
+          </li>
+        </ul>
+      </div>
+
+      <!-- call out -->
+      <div class="call-out-wrapper">
+        <div class="call-out">
+          <p class="call-out__text">
+            Mauris tortor arcu, ultrices at magna in, interdum pharetra purus.
+            Praesent tristique enim a tell us ullamcorper convallis.
+          </p>
+          <a href="#" class="call-out__btn">Buy Now</a>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-3 m-6 s-12">
+              <h1 class="logo logo--large logo--white">velox</h1>
+              <p class="brand-info">
+                Pellentesque feugiat odio libero. Suspendisse potenti. Duis
+                fermentum, ligula sit amet imperdiet cursus, sapien tellus
+                malesuada purus, eget lacinia eros augue quis.
+              </p>
+            </div>
+            <div class="col l-3 m-6 s-12">
+              <h4 class="footer__title">Popular Posts</h4>
+              <ul class="footer__menu">
+                <li class="footer__menu-item footer__menu-item--post">
+                  <a href="#" class="footer__menu-item-link post-link"
+                    >Fusce sit amet dolor fringilla!</a
+                  >
+                  <p class="post-created">July 30, 2014</p>
+                </li>
+                <li class="footer__menu-item footer__menu-item--post">
+                  <a href="#" class="footer__menu-item-link post-link"
+                    >Cum sociis natoque penatibus</a
+                  >
+                  <p class="post-created">june 4, 2014</p>
+                </li>
+                <li class="footer__menu-item footer__menu-item--post">
+                  <a href="#" class="footer__menu-item-link post-link"
+                    >Pellentesque feugiat odio libero.</a
+                  >
+                  <p class="post-created">May 24, 2014</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col l-3 m-6 s-12">
+              <h4 class="footer__title">Twitter Feeds</h4>
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <span
+                    class="footer__menu-item-icon footer__menu-item-icon--twitter ti-twitter-alt"
+                  ></span>
+                  <div class="footer__menu-item-details">
+                    <p class="twitter-description">
+                      <a href="#" class="twitter-link">@Shravan</a> Integer sit
+                      amet aliquet felis. Nullam fringilla leo a egestas porta.
+                    </p>
+                    <p class="twitter-created">1 minute ago</p>
+                  </div>
+                </li>
+                <li class="footer__menu-item">
+                  <span
+                    class="footer__menu-item-icon footer__menu-item-icon--twitter ti-twitter-alt"
+                  ></span>
+                  <div class="footer__menu-item-details">
+                    <p class="twitter-description">
+                      <a href="#" class="twitter-link">@Shravan</a> Integer sit
+                      amet aliquet felis. Nullam fringilla leo a egestas porta.
+                      Donec congue aliquam massa id consequat
+                    </p>
+                    <p class="twitter-created">1 day ago</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col l-3 m-6 s-12">
+              <h4 class="footer__title">Contact Us</h4>
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <span
+                    class="footer__menu-item-icon footer__menu-item-icon--location ti-location-pin"
+                  ></span>
+                  <p
+                    class="footer__menu-item-details footer__menu-item-details--paragrap"
+                  >
+                    92 Albacore Crescent Breadalbane NSW 2581
+                  </p>
+                </li>
+                <li class="footer__menu-item">
+                  <span
+                    class="footer__menu-item-icon footer__menu-item-icon-phone ti-mobile"
+                  ></span>
+                  <p
+                    class="footer__menu-item-details footer__menu-item-details--paragrap"
+                  >
+                    (04) 3100 1660
+                  </p>
+                </li>
+                <li class="footer__menu-item">
+                  <span
+                    class="footer__menu-item-icon footer__menu-item-icon-email ti-email"
+                  ></span>
+                  <p
+                    class="footer__menu-item-details footer__menu-item-details--paragrap"
+                  >
+                    emailme@velox.com
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="footer-bottom-wrapper">
+        <div class="footer-bottom">
+          <span class="footer-bottom__copyright"
+            >Copyright 2014 - Velox. All Right Reserved</span
+          >
+          <a href="#" class="footer-bottom__back-to-top hide--small-screen">
+            Back To Top
+            <span class="footer-bottom__back-to-top-icon ti-angle-up"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

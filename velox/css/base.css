@@ -1,0 +1,67 @@
+:root {
+  --font-logo: nexaLight, sans-serif;
+  --font-light: proximaNovaLight, sans-serif;
+  --font-semi-bold: proximaNovaSemibold, sans-serif;
+  --font-regular: proximaNovaRegular, sans-serif;
+  --color-primary: #1275b9;
+  --color-shadow: rgba(0, 0, 0, 0.35);
+  --color-border: #ededed;
+  --color-title: #000;
+  --color-semiTitle: #555;
+  --color-text: #393939;
+  --color-light-text: #c6c7c9;
+  --color-white: #fff;
+  --space-mobile: 16px;
+  --space-tablet: 32px;
+  --height-top-bar: 46px;
+  --height-header: 120px;
+  --height-header--tablet: 90px;
+  --height-header--mobile: 70px;
+  --height-service: 334px;
+  --width-header: 1400px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+}
+
+/* font */
+@font-face {
+  font-family: nexaLight;
+  src: url('../fonts/nexa/Nexa\ Light.otf');
+}
+
+@font-face {
+  font-family: proximaNovaLight;
+  src: url('../fonts/proxima_ssv/Proxima\ Nova\ Alt\ Light.otf');
+}
+
+@font-face {
+  font-family: proximaNovaSemibold;
+  src: url('../fonts/proxima_ssv/Proxima\ Nova\ Bold.otf');
+}
+
+@font-face {
+  font-family: proximaNovaRegular;
+  src: url('../fonts/proxima_ssv/ProximaNova-Regular.otf');
+}
+
+/* animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
