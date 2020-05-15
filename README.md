@@ -4,8 +4,6 @@ Train HTML, CSS skill with template PSD download from internet (all page have re
 Tech:
  - HTML, CSS basic
 
-Made by [Ngô Việt Hưng](https://github.com/viethung-512/)
-
 ## Ave
 ### Template PSD
 [File PSD](https://pcdn-my.pcloud.com/publink/show?code=kZjKKdkZzjYt1jQNCYzTVtMVAImyuk0dNru7)
@@ -35,9 +33,10 @@ Made by [Ngô Việt Hưng](https://github.com/viethung-512/)
 ### Result
  - [One page](https://viethung512.github.io/static-fontend/velox/index.html)
 
-
-About author: [Ngô Việt Hưng]()
+## About me
+[Ngô Việt Hưng](https://facebook.com/ngoduviethung/)
 
 Contact me
+ - Github: [Ngô Việt Hưng](https://github.com/viethung-512/)
  - Facebook: [Ngô Việt Hưng](https://facebook.com/ngoduviethung/)
  - Email: [Mail Hust](hung.nv151858@sis.hust.edu.vn) or [Person Mail](ngohung05121997@gmail.com)
